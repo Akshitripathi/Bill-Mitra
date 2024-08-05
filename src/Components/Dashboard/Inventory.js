@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Inventory.css';
 
 
-import BannerBackground from "../Assets/home-banner-background.png";
-import AboutBackground from "../Assets/about-background.png";
+import BannerBackground from "./Assets/home-banner-background.png";
+import AboutBackground from "./Assets/about-background.png";
 
 function Inventory() {
   const [items, setItems] = useState([

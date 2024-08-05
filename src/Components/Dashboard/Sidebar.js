@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
-import Logo from "../Dashboard/Logo.png";
+import Logo from "./Assets/Logo.png";
 function Sidebar({ setActiveSection }) {
   const [activeItem, setActiveItem] = React.useState('inventory');
 

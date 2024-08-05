@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar';
-import BannerBackground from "../Assets/home-banner-background.png";
-import AboutBackground from "../Assets/about-background.png";
-import BannerImage from "../Assets/landing_background.png";
+import BannerBackground from "./Assets/home-banner-background.png";
+import AboutBackground from "./Assets/about-background.png";
+import BannerImage from "./Assets/landing_background.png";
 
 import {FiArrowRight} from "react-icons/fi";
 import { Link } from 'react-router-dom';

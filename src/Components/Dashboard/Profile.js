@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Profile.css'; 
 
-import BannerBackground from "../Assets/home-banner-background.png";
-import AboutBackground from "../Assets/about-background.png";
+import BannerBackground from "./Assets/home-banner-background.png";
+import AboutBackground from "./Assets/about-background.png";
 
 function Profile() {
   const [profile, setProfile] = useState({

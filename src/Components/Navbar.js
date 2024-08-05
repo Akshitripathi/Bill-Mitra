@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from "../Assets/Logo.png";
+import Logo from "./Assets/Logo.png";
 import {HiOutlineBars3} from "react-icons/hi2";
 import { Link } from 'react-router-dom';
 import{

@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import BannerBackground from "../Assets/home-banner-background.png";
-import AboutBackground from "../Assets/about-background.png";
-import SignUp from "../Assets/sign_up.png";
+import BannerBackground from "./Assets/home-banner-background.png";
+import AboutBackground from "./Assets/about-background.png";
+import SignUp from "./Assets/sign_up.png";
 import './Signup.css'; 
 
 const Signup = () => {
