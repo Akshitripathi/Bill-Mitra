@@ -4,9 +4,9 @@ import React from 'react';
 import './About.css'
 
 import Navbar from './Navbar';
-import AboutBackground from "./Assets/about-background.png";
-import BannerBackground from "./Assets/home-banner-background.png";
-import AboutBackgroundImage from "./Assets/about_pic.png";
+import AboutBackground from "../Assets/about-background.png";
+import BannerBackground from "../Assets/home-banner-background.png";
+import AboutBackgroundImage from "../Assets/about_pic.png";
 
 const About = () => {
   return (

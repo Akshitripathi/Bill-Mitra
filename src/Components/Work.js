@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import BannerBackground from "../Assets/home-banner-background.png";
+import BannerBackground from "./Assets/home-banner-background.png";
 import AboutBackground from "./Assets/about-background.png";
 import PickMeals from "./Assets/inventory-management.png";
 import ChooseMeals from "./Assets/expense_tracker.png"
