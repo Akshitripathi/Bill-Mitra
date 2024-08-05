@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bill-mitra/static/css/main.51b6ee78.css",
+    "main.js": "/bill-mitra/static/js/main.d2426191.js",
+    "static/media/landing_background.png": "/bill-mitra/static/media/landing_background.1ed2eebd7e19e5e83543.png",
+    "static/media/about_pic.png": "/bill-mitra/static/media/about_pic.48db14be16582a3f414a.png",
+    "static/media/expense_tracker.png": "/bill-mitra/static/media/expense_tracker.265fdc055fcd8a38de5c.png",
+    "static/media/login.png": "/bill-mitra/static/media/login.411762833d09b9e11ea2.png",
+    "static/media/sign_up.png": "/bill-mitra/static/media/sign_up.7079753fe3490510989a.png",
+    "static/media/Logo.png": "/bill-mitra/static/media/Logo.9d4d87b7d7621b64b094.png",
+    "static/media/home-banner-background.png": "/bill-mitra/static/media/home-banner-background.585600da7ff85661555e.png",
+    "static/media/inventory-management.png": "/bill-mitra/static/media/inventory-management.81721982895066807f2a.png",
+    "index.html": "/bill-mitra/index.html",
+    "main.51b6ee78.css.map": "/bill-mitra/static/css/main.51b6ee78.css.map",
+    "main.d2426191.js.map": "/bill-mitra/static/js/main.d2426191.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51b6ee78.css",
+    "static/js/main.d2426191.js"
+  ]
+}
