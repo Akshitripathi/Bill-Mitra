@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Contact.css";
 import Navbar from './Navbar';
-import BannerBackground from "../Assets/home-banner-background.png";
-import AboutBackground from "../Assets/about-background.png";
+import BannerBackground from "./Assets/home-banner-background.png";
+import AboutBackground from "./Assets/about-background.png";
 
 const Contact = () => {
   return (

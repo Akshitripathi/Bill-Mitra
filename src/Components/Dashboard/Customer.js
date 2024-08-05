@@ -3,8 +3,8 @@
 import React, { useState } from 'react';
 import './Customer.css'; 
 
-import BannerBackground from "./Assets/home-banner-background.png";
-import AboutBackground from "./Assets/about-background.png";
+import BannerBackground from "../Assets/home-banner-background.png";
+import AboutBackground from "../Assets/about-background.png";
 
 function Customer() {
   const [customers, setCustomers] = useState([
