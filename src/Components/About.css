@@ -1,0 +1,77 @@
+/* src/Components/About.css */
+*{
+
+}
+
+.about {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .about-section-container {
+    position: relative;
+    /* padding: 20px; */
+    margin-top: 0px;
+    margin-left: -100px;
+    margin-right: 7rem;
+    overflow: hidden;
+  }
+  
+  .home-bannerImage-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .contact .about-background-image-container{
+    margin-left: -100px;
+    margin-top: -130px;
+  }
+  
+  .about-section-image-container img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 2;
+    margin-left: 4rem;
+    margin-bottom: -5px;
+    
+  }
+  
+  .about-section-text-container {
+    position: relative;
+    z-index: 3;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    /* background-color: #fff;  */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; /* Optional: Rounded corners */
+  }
+  
+  .primary-subheading {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .primary-heading {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .primary-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+ 
+  
+  

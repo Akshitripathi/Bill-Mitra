@@ -1,0 +1,133 @@
+.inventory-container {
+  max-width: 20rem;
+  margin-left: 9rem;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.inventory-container .main-content {
+  display: flex; 
+  justify-content: space-between; 
+  width: 60rem;
+  margin-left: -10rem;
+}
+
+.item-list {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.item-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-list li {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-left: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-details h3 {
+  margin-top: 0;
+}
+
+.item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.remove-btn,
+.sell-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sell-btn {
+  background-color: #28a745;
+}
+
+.remove-btn:hover,
+.sell-btn:hover {
+  opacity: 0.8;
+}
+
+.stats-container {
+  flex: 1;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-item {
+  margin-top: 4.1rem;
+  background-color: #e9ecef;
+  padding: 15px;
+  margin-left: 3rem;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.sales-chart {
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.category-summary {
+  margin-top: 20px;
+  padding: 0 20px;
+  width: 20rem;
+  margin-left: -9rem;
+  font-size: 1.2rem;
+}
+
+.category-items {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin-left: 6rem;
+  padding: 1rem;
+}
+
+.category-item {
+  background-color: #fff;
+  width: 200px;
+  font-size: 1.5rem;
+  height: 200px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  margin: 0 30px;
+  text-align: center;
+}
+
+
+.home-bannerImage-container{
+  margin-right: -5rem;
+}
+
+
+.about-background-image-container{
+  margin-top: 50rem;
+  margin-left: -4rem;
+}

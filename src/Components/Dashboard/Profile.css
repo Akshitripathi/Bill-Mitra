@@ -1,0 +1,159 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-container {
+    width: 40rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    padding: 4rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+  
+  .profile-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5rem;
+  }
+  
+  .profile-details-container {
+    flex: 2; 
+    margin-right: 2rem;
+  }
+  
+  .profile-picture-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .profile-picture-img {
+    width: 500px; 
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd; 
+  }
+  
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group label {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1.1rem; 
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .file-input {
+    margin-top: 0.5rem;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1rem; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:disabled {
+    background-color: #007bff;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 1rem; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }
+  
+  .feedback-message {
+    margin-top: 1rem;
+    color: #28a745; 
+    font-size: 1.1rem;
+  }
+  
+  .profile-details {
+    text-align: left;
+    font-size: 1.2rem; 
+  }
+  
+  .edit-button {
+    background-color: #FE9E0D;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem; 
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .edit-button:hover {
+    background-color: #FE9E0D;
+  }
+  
+
+  .profile .home-bannerImage-container{
+    margin-right: -4rem;
+  }
+  
+  
+  .profile .about-background-image-container{
+    margin-top: 30rem;
+    margin-left: -6rem;
+  }
